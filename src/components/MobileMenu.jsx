@@ -1,3 +1,8 @@
+import leetcode from "../assets/leetcode.jpg";
+import linkedin from "../assets/linkedin.png";
+import github from "../assets/github.png";
+import resume from "../assets/resume.png";
+
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
@@ -72,6 +77,44 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         Contact
       </a>
+
+      <div className="flex gap-4">
+        <a href="https://leetcode.com/u/Abhishek_Madiwale/" target="_blank">
+          <img
+            src={leetcode}
+            alt="leetcode logo"
+            className="w-10 flex transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#f59e0b] rounded-lg"
+          />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/abhishek-madiwale-4ab70190/"
+          target="_blank"
+        >
+          <img
+            src={linkedin}
+            className="w-10 flex transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#f59e0b] rounded-lg"
+          />
+        </a>
+
+        <a href="https://github.com/AbhishekMadiwale" target="_blank">
+          <img
+            src={github}
+            className="w-10 flex transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#f59e0b] rounded-lg"
+          />
+        </a>
+
+        <a
+          href="https://drive.google.com/file/d/1o9MYnb0HXZgFqBM5cuMLBAPKbZ1LxSyF/view"
+          target="_blank"
+        >
+          <img
+            src={resume}
+            alt="resume logo"
+            className="w-10 flex transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#f59e0b] rounded-lg"
+          />
+        </a>
+      </div>
     </div>
   );
 };

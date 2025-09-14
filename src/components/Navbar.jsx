@@ -53,7 +53,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             </a>
           </div>
 
-          <div className="md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             <div className="w-10 flex transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#f59e0b] rounded-2xl">
               <a
                 href="https://leetcode.com/u/Abhishek_Madiwale/"
